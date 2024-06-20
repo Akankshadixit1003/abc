@@ -1,0 +1,415 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+
+    width: 100%;
+    font-family: gilroy;
+}
+.landing{
+    height: 145vh;
+    width: 100%;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-right: 55px;
+}
+.nav span{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.nav span h2{
+    color: rgb(199, 155, 72);
+    font-size: 30px;
+}
+
+.nav-part2{
+    display: flex;
+ text-decoration: none;
+ justify-content: space-evenly;
+ align-items: center;
+ gap: 30px;
+}
+
+.nav-part2 h4{
+    font-weight: 500;
+}
+
+.nav-part2 button{
+    color: white;
+    background-color: rgb(196, 106, 50);
+    padding: 8px 60px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.image img{
+    width: 100%;
+    background-image: cover;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.box{
+    height: 400px;
+    width: 550px;
+    background-color: whitesmoke;
+    
+    position: absolute;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 140px;
+    border-radius: 5px;
+    
+}
+
+.box h2{
+    padding-top: 20px;
+    padding-left: 45px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.box h3{
+    padding-left: 45px;
+    font-size: 40px;
+}
+
+.box p{
+    padding-left: 45px;
+    padding-top: 35px;
+    padding-right: 30px;
+    
+}
+
+.box button{
+    padding: 8px 35px;
+    margin-left: 45px;
+    margin-top: 70px;
+    background-color: rgb(196, 106, 50);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.webflow{
+    height: 73%;
+    width: 100%;
+    background-color: rgb(228, 241, 245);
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.text{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    
+}
+.text h2{
+font-weight: 800;
+color: rgb(2, 75, 75);
+margin-left: 45%;
+}
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 35px;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(75, 93, 77);
+
+}
+.companies h3 span{
+    font-weight: 300;
+}
+.aboutleft{
+    height: 35%;
+    width: 45%;
+
+    
+}
+
+.about{
+padding: 30px 60px;
+}
+
+.about h3{
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(2, 75, 75);
+}
+.about p{
+    padding-top: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.about p span{
+    color: rgb(171, 171, 10);
+}
+.aboutright img{
+    padding-left: 99%;
+    background-image: cover;
+} 
+
+.secondpart{
+    height: 55%;
+    width: 100%;
+}
+
+.choose{
+ align-items: center;
+justify-content: center;
+
+}
+
+.choose h1{
+    padding-top: 20px;
+   padding-left: 650px;
+   color:rgb(2, 75, 75) ; 
+   font-size: 40px;
+}
+.choose p{
+   padding-left: 32%;
+   padding-top: 5px; 
+}
+.boxcontainer{
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+    height: 60%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+   height: 40vh;
+   width: 28%;
+   background-color: rgb(238, 230, 230);  
+   border-radius: 5px;
+}
+.box1 i{
+    padding-top: 5px;
+    padding-left: 25px;
+   font-size: 40px;
+   color: yellow;
+   
+}
+.box1 h2{
+    font-weight: 800;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.box1 p{
+padding-top: 15px;
+padding-left: 15px;
+font-weight: 500;
+
+}
+.box1 button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color:  rgb(196, 106, 50);
+    color: white;
+    border: none;
+    margin-top: 60px;
+    margin-left: 340px;
+}
+
+.box2{
+    height: 40vh;
+    width: 28%;
+    border: 1px solid rgb(244, 133, 133); 
+    border-radius: 5px; 
+ }
+.box2 i{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-size: 40px;
+    color: rgb(76, 200, 76);
+}
+
+.box2 h2{
+    font-weight: 800;
+    padding-top: 15px;
+    padding-left: 15px; 
+}
+
+.box2 p{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.box2 button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color:  rgb(236, 145, 176);
+    color: white;
+    border: none;
+    margin-top: 60px;
+    margin-left: 340px;
+}
+
+
+ .box3{
+    height: 40vh;
+    width: 28%;
+    border: 1px solid rgb(122, 147, 122); 
+    border-radius: 5px;
+ }
+ .box3 i{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-size: 40px;
+    color: blueviolet;
+ }
+
+ .box3 h2{
+    font-weight: 800;
+    padding-top: 15px;
+    padding-left: 15px; 
+}
+
+.box3 p{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.box3 button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color:  rgb(195, 243, 168);
+    color: white;
+    border: none;
+    margin-top: 60px;
+    margin-left: 340px;
+}
+.dot{
+    margin-left: 50%;
+    color: rgb(211, 203, 203) ;
+}
+
+.dot span{
+color:  rgb(196, 106, 50);
+}
+
+.thirdpart{
+    height: 80%;
+    width: 100%;
+   /* background-color: rgb(154, 185, 180);*/
+    position: relative;
+}
+.product{
+   align-items: center;
+   justify-content: center; 
+   margin-top: 35px;
+    
+} 
+.product h1{
+   padding-left: 650px; 
+   color:rgb(2, 75, 75) ; 
+   font-size: 40px;
+}
+.product p{
+    padding-left: 23%;
+    padding-top: 5px; 
+ }  
+
+ .design{
+    display: flex;
+    gap: 3px;
+    margin-top: 40px;
+    
+    padding-left: 6px;
+
+ }
+ .design image{
+    border-radius: 5px;
+ }
+ .image1{
+    margin-left: 3px;
+ }
+
+ .image1 h3{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .image1 h5{
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .image2 h3{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .image2 h5{
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .image3 h3{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .image3 h5{
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ .image1 div{
+    display: flex;
+    align-items: center;
+ }
+
+.div i{
+  color: rgb(250, 211, 14);
+  font-size: 16px;
+ }
+
+.star{
+    padding-left: 250px;
+    gap: 3px;
+} 
+
+.image1 span{
+    display: flex;
+    gap: 370px;
+}
+.image1 p{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ 
+
+
